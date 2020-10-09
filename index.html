@@ -3,7 +3,43 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Google </title>
+    <title> Login Form </title>
     <link rel="stylesheet" href="style.css">
-    
+    <style>
+    * 
+    { margin: 0;
+      padding:0;
+
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    </style>
   </head>
+
+  <!----------------------- form -------------------- -->
+<form>
+<h2> Basic Log in Form</h2>
+<div class="img-container">
+  <img src="images\avatarspon.jpeg" alt="avatar">
+</div>
+<div class="container  ">
+<label for="uname">First name</label>
+<input type="text" placeholder="Enter user name" name="uname" required>
+<label for= "password" > password</label>
+<input type="text" placeholder="Enter your password" name="psw" required >
+</div>
+<div class="wrapper">
+<button class="loginbtn">Log in</button>
+<label>
+  <input type="checkbox" checked="checked" name="remember" class="remember"> Remember me
+</label>
+</div>
+
+<div class="container wrapper">
+  <button type="button" class="cancelbtn">Cancel</button> 
+  <span class="psw"><a href="#">Forgot password?</a></span>
+</div>
+
+<footer>
+  &copy; Created by Eman Ibrahim.
+</footer>
+</form>
